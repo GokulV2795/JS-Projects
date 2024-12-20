@@ -1,0 +1,35 @@
+body {
+    background-image: url('./back.jpg'); /* Ensure the image file is in the correct path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.a {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 350px;
+    height: 200px;
+    padding: 40px;
+    margin: 100px auto; /* Center the div horizontally */
+    border: 2px solid blueviolet;
+    border-top-color: rgb(206, 11, 245);
+    border-radius: 20px;
+}
+
+#input {
+    padding: 10px;
+    width: 200px; /* Adjusted for better visibility */
+    border-radius: 10px;
+    border: 2px groove blueviolet;
+}
+
+#runBtn {
+    padding: 10px 20px; /* Adjusted for balanced button size */
+    margin-left: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(149, 0, 255), aqua);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
