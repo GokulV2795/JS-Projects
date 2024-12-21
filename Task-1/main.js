@@ -16,6 +16,6 @@ document.querySelector('#runBtn').addEventListener('click', () => {
         body.style.backgroundImage = "url('./back.jpg')"; // Set background for eligible age
     } else {
         document.querySelector("#result").innerHTML = "Sorry, you must be 18 or older to access this page.";
-        body.style.backgroundImage = "url('minor-background.jpg')"; // Set background for underage
+        body.style.backgroundImage = "url('./Minor.jpg')"; // Set background for underage
     }
 });
